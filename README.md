@@ -99,8 +99,12 @@ This project uses 800 samples, split 80/10/10 into train (640), valid (160), and
 
 ### Installation
 
+**Note:** This repo only contains code and scripts. You need to download the model and generate data yourself (~3GB total).
+
 ```bash
-# 1. Create environment
+# 1. Clone and create environment
+git clone https://github.com/SoloCalm/MiniLoRA.git
+cd MiniLoRA
 conda create -n minillm python=3.10
 conda activate minillm
 

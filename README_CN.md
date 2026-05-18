@@ -97,8 +97,12 @@ alpha/r: 缩放因子
 
 ### 安装
 
+**注意：** 仓库只包含代码，不包含模型和数据。需要自行下载模型和生成数据（共约 3GB）。
+
 ```bash
-# 1. 创建环境
+# 1. 克隆仓库并创建环境
+git clone https://github.com/SoloCalm/MiniLoRA.git
+cd MiniLoRA
 conda create -n minillm python=3.10
 conda activate minillm
 
