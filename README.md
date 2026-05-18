@@ -144,7 +144,7 @@ python scripts/my_train_lora.py --r 16 --output-dir outputs/lora-r16 --max-train
 ## Project Structure
 
 ```
-minillm/
+MiniLoRA/
 ├── README.md                           # This file (English)
 ├── README_CN.md                        # Chinese README
 ├── requirements.txt                    # Python dependencies

@@ -142,7 +142,7 @@ python scripts/my_train_lora.py --r 16 --output-dir outputs/lora-r16 --max-train
 ## 项目结构
 
 ```
-minillm/
+MiniLoRA/
 ├── README.md
 ├── requirements.txt                    # Python 依赖
 ├── download_dataset.py                 # 数据下载脚本
